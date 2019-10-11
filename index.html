@@ -17,14 +17,14 @@
 
 
         <div class="container">
-            <div class="jumbotron jumbotron-fluid text-center bg-info text-warning">
+            <div class="jumbotron jumbotron-fluid text-center">
                 <div class="container">
-                    <h1 class="display-4 font-weight-bold">Train Schedule</h1>
-                    <p class="lead font-weight-bold">Stop! It's Choo-Choo Time!</p>
+                    <h1>Train Schedule</h1>
+                    <p>Stop! It's Choo-Choo Time!</p>
                 </div>
             </div>
             <table class="table">
-                <thead class="thead bg-info text-warning font-weight-bold">
+                <thead>
                     <tr>
                         <th scope="col">Train Name</th>
                         <th scope="col">Destination</th>
@@ -33,7 +33,7 @@
                         <th scope="col">Minutes Away</th>
                     </tr>
                 </thead>
-                <tbody id='tableBody'>
+                <tbody id='table-body'>
                     <tr>
                         <!--Train Info Here-->
                     </tr>
@@ -52,10 +52,10 @@
                     </div>
                     <div class="form-group row">
                         <label for="time-input">First Train Time (HH:mm Military Time)</label>
-                        <input class="form-control" id="time-input" type="number">
+                        <input class="form-control" id="time-input" type="text">
                     </div>
                     <div class="form-group row">
-                        <label for="frequency-input">Frequency (mins)</label>
+                        <label for="rate-input">Frequency (mins)</label>
                         <input class="form-control" id="frequency-input" type="number">
                     </div>
                     <button class="btn btn-info" id="add-train-button" type="submit">Submit</button>
