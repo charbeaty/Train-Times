@@ -1,16 +1,17 @@
 // Initialize Firebase
-   var config = {
-    apiKey: "AIzaSyA_ayk2t2bVv_LSwK62YayTqarnrKc7EKY",
-    authDomain: "mondaywednesdayrocks-7e396.firebaseapp.com",
-    databaseURL: "https://mondaywednesdayrocks-7e396.firebaseio.com",
-    projectId: "mondaywednesdayrocks-7e396",
-    storageBucket: "",
-    messagingSenderId: "558929409150",
-    appId: "1:558929409150:web:e836433c5e71dde736542f"
-    };
 
-    firebase.initializeApp(config);
 
+    var firebaseConfig = {
+        apiKey: "AIzaSyCE8rdGLLK-NRoc8mHpAAf3mz1VnwJQ8VI",
+        authDomain: "trains-d35cd.firebaseapp.com",
+        databaseURL: "https://trains-d35cd.firebaseio.com",
+        projectId: "trains-d35cd",
+        storageBucket: "trains-d35cd.appspot.com",
+        messagingSenderId: "848504351420",
+        appId: "1:848504351420:web:0b859a477ee8534870beb9"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
 
     // Get a reference to the database service
     var database = firebase.database();

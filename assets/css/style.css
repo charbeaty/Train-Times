@@ -1,5 +1,6 @@
 body,
-html {
+html,
+button {
     background-color: rgb(223, 219, 219);
 }
 
@@ -15,15 +16,26 @@ p,
 .table,
 .card-body{
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
-.jumbotron,
-thead {
+.jumbotron {
     background-color: rgb(177, 68, 68);
 }
 
-button {
-    color: rgb(33, 141, 130);
+thead {
+    background-color: rgb(124, 39, 39);
+    color: rgb(223, 219, 219);
 }
+
+.card-body {
+    background-color: rgb(177, 68, 68)
+}
+
+#add-train-button {
+    background-color: black;
+}
+
+
 
 
