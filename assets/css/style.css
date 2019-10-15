@@ -1,12 +1,9 @@
 body,
 html {
-    background-color: rgb(33, 141, 130);
+    background-color: rgb(223, 219, 219);
 }
 
-.jumbotron,
- {
-    background-color: white;
-}
+
 
 h1 {
     font-family: 'Fascinate Inline', cursive;
@@ -20,9 +17,9 @@ p,
     font-family: 'Playfair Display', serif;
 }
 
-.table,
-.card-body{
-    background-color: rgb(206, 204, 204);
+.jumbotron,
+thead {
+    background-color: rgb(177, 68, 68);
 }
 
 button {
