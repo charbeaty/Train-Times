@@ -1,0 +1,32 @@
+body,
+html {
+    background-color: rgb(33, 141, 130);
+}
+
+.jumbotron,
+ {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 72px;
+    color: black;
+}
+
+p, 
+.table,
+.card-body{
+    font-family: 'Playfair Display', serif;
+}
+
+.table,
+.card-body{
+    background-color: rgb(206, 204, 204);
+}
+
+button {
+    color: rgb(33, 141, 130);
+}
+
+
